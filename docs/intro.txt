@@ -1,0 +1,12 @@
+Introduce Yourself:
+    Share your name and role.
+
+Ask Students to Introduce Themselves:
+    Name
+    Age
+    Class level
+    Experience with programming (if any)
+
+
+Ask Basic Questions:
+    Explain loops, variables, and conditionals.

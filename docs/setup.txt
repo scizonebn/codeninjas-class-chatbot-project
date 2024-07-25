@@ -1,0 +1,7 @@
+install 
+    1. pip install openai
+    2. pip install streamlit
+    3. pip install streamlit-chat
+
+
+put api key in text file on each students PC
