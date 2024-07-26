@@ -20,8 +20,8 @@ client = OpenAI(
 # Function to get a response from the AI using what you type
 def get_query_response(user_input):
     openai_response = client.chat.completions.create(
-        model='gpt-3.5-turbo',  # The brain of the bot!
-        messages=[{'role': 'user', 'content': user_input}]  # Send what you say
+        model='gpt-3.5-turbo',  # The version of the bot brain to use.
+        messages=[{'role': 'user', 'content': user_input}]  # Send what you say as a user
     )
 
     # Return the AI's reply
