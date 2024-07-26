@@ -37,8 +37,9 @@ def get_query_response(user_input):
 def main() -> None:
 
     # Show the chatbot's name at the top
+    # Lets go online and get come emoji to make the chatbot beautiful
     st.markdown(
-        '<h1>Your Bot\'s Name (B🤖t)</h1>',
+        '<h1>Your Bot\'s Name</h1>',
         unsafe_allow_html=True,
     )
 
