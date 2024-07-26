@@ -9,7 +9,8 @@ from streamlit_chat import message
 
 
 #################################################################################################
-
+# Lets Build the Brain for our ChatBot
+################################################################################################
 
 # Set up a client to talk to OpenAI's API using a secret key
 client = OpenAI(
@@ -29,8 +30,8 @@ def get_query_response(user_input):
 
 
 ##################################################################################################
-
-
+# Lets Build the Body for our ChatBot
+##################################################################################################
 
 # Main function to set up and run the chat app
 def main() -> None:
@@ -62,6 +63,7 @@ def main() -> None:
         with st.spinner("Searching knowledge base ..."):
             
             # Get the bot's response to your message
+            # Lets connect the brain to the body 
             bot_response = get_query_response(user_input)
         
         # Save what you and the bot said
